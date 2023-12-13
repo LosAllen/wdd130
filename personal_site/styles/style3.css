@@ -6,7 +6,7 @@
     --accent2-color: #ffffff;
 
     --heading-font: "Exo 2", sans-serif;
-    --paragraph-font: "Slabo 27", sans-serif;
+    --paragraph-font: "Slabo 27px", sans-serif;
 }
 
 .content{
@@ -26,7 +26,7 @@ body{
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    font-family: Exo 2, sans-serif;
+    font-family: var(--heading-font);
     padding: 10px;
     text-align: left;
     display: flex;
@@ -120,7 +120,7 @@ footer .social img{
     width: 100%;
 }
 
-#title{
+#title1, #title2, #title3{
     font-family: var(--heading-font);
     font-size: 70px;
     background-color: var(--accent1-color);
